@@ -1,0 +1,23 @@
+
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot with MongoDB session storage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install-deps": "npm install mongodb@latest"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "qrcode-terminal": "^0.12.0",
+    "express": "^4.17.1",
+    "pino": "^7.0.0",
+    "qrcode": "^1.5.0",
+    "node-fetch": "^2.6.1"
+
+  },
+  "engines": {
+    "node": ">=20.15.1"
+  }
+}
